@@ -5,4 +5,30 @@ html {
 
 body {
   background-image: url("assets/backgroundimage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.logo-container {
+  display: inline-block;
+  padding: 20px 0;
+  height: auto;
+}
+
+.logo-container img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+  padding-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
 }
