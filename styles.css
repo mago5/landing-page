@@ -70,7 +70,9 @@ h1 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  cursor: pointer;
 }
+
 .help-text {
   color: white;
   font-size: 15px;
