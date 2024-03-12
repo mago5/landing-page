@@ -31,4 +31,48 @@ header {
 h1 {
   text-align: center;
   margin: 0 auto;
+  font-weight: 750;
+  font-size: 40px;
+}
+
+.centered {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.smaller {
+  font-size: 0.8em;
+  font-weight: 500;
+  max-width: 29%;
+  margin: 0 auto;
+}
+
+.kluczeFrancuskie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.kluczeFrancuskie img {
+  width: 30%;
+}
+
+.help-box {
+  width: 175px;
+  height: 52px;
+  background-color: #49abed;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.help-text {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
 }
