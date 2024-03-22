@@ -10,7 +10,6 @@ body {
 }
 
 /* hero */
-
 .hero {
   padding: 130px 0 70px;
   background: url("./assets/hero-bg.png") no-repeat center;
@@ -76,7 +75,6 @@ body {
 }
 
 /* about */
-
 .about {
   padding: 100px 16px 150px;
 }
@@ -87,7 +85,7 @@ body {
   margin: 0 auto 50px;
   display: flex;
   border: 4px solid #f2f2f2;
-  border-radius: 40px;
+  border-radius: 44px;
 }
 
 .about__left {
@@ -148,25 +146,38 @@ body {
 }
 
 /* services  */
-
 .services {
-  max-width: 100%;
-  max-height: 390px;
-  padding: 150px;
-  background-image: url("./assets/services-bg.png");
+  background: url("./assets/services-bg.png") no-repeat center;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .services__heading {
   color: #ffffff;
   font-size: 48px;
+  margin: 0;
 }
 
+.services__list {
+  /* you might want to use "display: flex;" here */
+}
+
+.services__item-icon {
+  /* don't re-use class from other section in HTML, even if they look the same it's better to duplicate styles, cause once codebase grows in size it's hard to keep track of re-used code, code duplication is fine in this case */
+}
+
+.services__item-heading {
+  /* simple text styles, you might want to use "margin: 0;" here to remove default margin  */
+}
+
+.services__item-copy {
+  /* simple text styles, you might want to use "margin: 0;" here to remove default margin  */
+}
+
+.services__button {
+  /* don't re-use class from other section in HTML, even if they look the same it's better to duplicate styles, cause once codebase grows in size it's hard to keep track of re-used code, code duplication is fine in this case */
+}
+
+/* RWD */
 @media screen and (max-width: 768px) {
   .hero {
     padding: 64px 0 48px;
